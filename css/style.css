@@ -420,6 +420,227 @@ h6 {
   margin-right: 5px;
 }
 
+.clients {
+  margin-top: 150px;
+  background-color: #FEF2F2;
+}
+
+.clients__container {
+  padding: 6.25rem 0rem;
+}
+
+.clients__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #6B7280;
+  margin-bottom: 20px;
+}
+
+.clients__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feed__title {
+  margin: 9.375rem 0rem;
+}
+
+.feed__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feed__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feed__column-1 img:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.feed__column-2 {
+  position: relative;
+}
+
+.feed__column-img {
+  z-index: 50;
+}
+
+.feed__card {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  display: flex;
+  min-width: 495px;
+  left: 20px;
+  bottom: 20px;
+  padding: 32px;
+  z-index: 150;
+}
+
+.feed__bottom {
+  margin-top: 30px;
+}
+
+.card__feed-title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  color: #1F2937;
+}
+
+.card__feed-text {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #6B7280;
+}
+
+.offers__container {
+  margin-top: 150px;
+}
+
+.offers__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offers__item {
+  text-align: center;
+}
+
+.item-offers__icon {
+  border-radius: 6px;
+  margin: 0rem 8.75rem;
+  height: 6.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEF2FF;
+  margin-bottom: 40px;
+}
+
+.item-offers__title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #1F2937;
+  margin-bottom: 20px;
+}
+
+.item-offers__text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #6B7280;
+}
+
+.careers__title {
+  margin: 9.375rem 0rem;
+}
+
+.careers__table {
+  width: 100%;
+}
+
+.column-careers__item {
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B7280;
+  padding-bottom: 80px;
+}
+
+.row-item__item {
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B7280;
+  padding-bottom: 5rem;
+}
+
+.row-item__item span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1F2937;
+}
+
+.contacts {
+  margin-top: 70px;
+  background-color: #FEF2F2;
+  padding: 6.875rem 0rem;
+}
+
+.contacts__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contacts__title {
+  margin-bottom: 1.25rem;
+}
+
+.contacts__text {
+  display: block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 664px;
+  margin-bottom: 100px;
+}
+
+.contacts__link:not(:last-child) {
+  margin-right: 50px;
+}
+
 @media (any-hover: hover) {
   .button:hover {
     background-color: #EEF2FF;
